@@ -2,8 +2,11 @@ package com.java.d3v3lop3r.discovery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
+// To enable Eureka Server
+@EnableEurekaServer
 public class DiscoveryServiceApplication {
 
     public static void main(String[] args) {
